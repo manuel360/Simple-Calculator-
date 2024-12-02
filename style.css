@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#display{
+    background-color: green;
+    grid-row: 1/1;
+    grid-column: 1/span 4;
+    justify-items: end;
+    text-align: right;
+    width: 100%;
+    font-size: x-large;
+    border-radius: .3rem;
+    background-color: white;
+    margin: .3rem 0px;
+
+}
+button{
+    border: none;
+    border-right: .8px solid rgba(216, 112, 147, 0.428);
+    border-radius: 2px;
+    border-top: .8px solid rgba(216, 112, 147, 0.7);
+padding: .5rem;
+font-size: x-large;
+width: 100%;
+cursor: pointer;
+}
+button:active{
+    border:2px solid palevioletred;
+}
+button:hover{
+    background-color: palevioletred;
+}
+#main{
+    display: grid;
+    grid-template-columns: repeat(4, 5rem);
+    grid-template-rows: repeat(5, 5rem);
+    /* justify-content: center;
+    align-items: center; */
+    border: 2px solid palegoldenrod;
+    border-radius: 7px;
+    background-color: rgba(152, 251, 152, 0.365);
+    padding: .5rem;
+    width: fit-content;
+
+}
