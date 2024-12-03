@@ -44,10 +44,10 @@ buttons.forEach(btn =>{
               
                 else if(inputEl ==='='){
                   let result =  show(operate(parseFloat(firstnum), (operator), parseFloat(secnum)))
-                //  firstnum = result.toString();
-                //  secnum = ''
-                //  operator = null;
-                 console.log((`firstnum:${firstnum}, secnum${secnum}, operator${operator}`));
+                 firstnum = result.toString();
+                 secnum = ''
+                 operator = null;
+        
                  
                 }
               
