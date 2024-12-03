@@ -33,7 +33,6 @@ buttons.forEach(btn =>{
                         
                     else {
                         secnum+=inputEl;
-                        secnum +=firstnum
                         show(secnum)
                     }
                 }
